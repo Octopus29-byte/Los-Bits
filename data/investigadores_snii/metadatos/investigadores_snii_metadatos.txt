@@ -1,0 +1,52 @@
+FUENTE (APA):
+Secretaría de Ciencia, Humanidades, Tecnología e Innovación. (2026). 
+Archivo Histórico del Sistema Nacional de Investigadoras e Investigadores (SNII) 
+[Investigadores_vigentes_2000, ... , Investigadores_vigentes_2025]. 
+https://secihti.mx/snii/archivo-historico-del-snii/ 
+(Consultado el 9 de abril de 2026).
+
+
+* Autor: Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI)
+* Datos primarios: Archivo Histórico del Sistema Nacional de Investigadoras e Investigadores (SNII)
+* Responsable del cálculo: Equipo "Los Bits"
+
+FECHA DE DESCARGA:
+9  de abril de 2026
+
+LICIENCIA:
+Términos de libre uso de la información (Compatible con Creative Commons Attribution 4.0 / CC BY 4.0)
+Permite:
+    a. Compartir: Copiar y redistribuir el material en cualquier medio o formato para cualquier propósito.
+    b. Adaptar: Remezclar, transformar y construir a partir del material (crear obras derivadas).
+    c. Uso Comercial: La licencia permite el uso de los datos incluso con fines de lucro.
+    d. Distribución Global: Los derechos otorgados son válidos en todo el mundo y de forma irrevocable 
+    mientras se cumplan los términos.
+    e. Libertad de Formato: El licenciante no puede revocar estas libertades en tanto sigas los términos
+    de la licencia.
+
+Obligaciones:
+
+    a. Atribución: Debe dar crédito de manera adecuada, proporcionar un enlace a la licencia e indicar si 
+    se realizaron cambios.
+    b. No agregar restricciones adicionales: No puede aplicar términos legales o medidas tecnológicas que 
+    restrinjan legalmente a otros a hacer cualquier cosa que la licencia permita.
+    c. Indicación de cambios: Si modificaste los datos (limpieza, cálculos, filtros), debes declararlo 
+    explícitamente para no afectar la reputación de la fuente original.
+    d. Enlace a la licencia: Es obligatorio incluir el URI (enlace) o una copia de la licencia CC BY 4.0 
+    en tu publicación o producto final.
+    e. Aviso de garantía: Debes conservar los avisos que se refieren a la ausencia de garantías por parte 
+    del autor original sobre la exactitud de los datos.
+Url: https://creativecommons.org/licenses/by/4.0/
+
+DICCIONARIO DE DATOS:
+
+1.- Año: Año referido.
+2.- No_de_investigadores_reconocidos_por_el_snii: Número de investigadores reconocidos por el SNII. 
+
+MODIFICACIONES:
+1.- Para obtener el data frame llamado "investigadores" se entro a cada uno de los archivos Investigadores_vigentes_XXXX,
+posteriormente se extrajo el total de investigadores vigentes para cada año y se fue agregando al data frame "investigadores"
+en el año correspondiente. 
+2.- Se hace un joint con el data frame llamado "patentes" de tipo inner.
+3.- Se elimina la columna "País".
+4.- Se filtra la columna "Año" del menor al mayor.

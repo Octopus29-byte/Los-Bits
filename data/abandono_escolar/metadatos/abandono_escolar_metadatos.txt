@@ -1,0 +1,54 @@
+FUENTE (APA):
+Instituto Nacional de Estadística y Geografía. (2026). 
+Tabulados interactivos de educación [Tasa de abandono escolar por entidad federativa según nivel educativo, 
+ciclos escolares seleccionados de 2000/2001 a 2023/2024]. 
+https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Educacion_Educacion_11_c6aa7c65-4d89-4eaf-972e-431727fc686d
+(Consultado el 6 de abril de 2026).
+
+
+* Autor: INEGI, Tasa de abandono escolar por entidad federativa según nivel educativo (SEP), 2025
+* Datos primarios: Secretaría de Educación Pública (SEP)
+* Responsable del cálculo: SEP, con base en proyecciones de población del CONAPO (agosto 2023)
+
+FECHA DE DESCARGA:
+6 de abril de 2026
+
+LICIENCIA:
+Términos de libre uso de la información del INEGI 
+Permite:
+    a. Hacer y distribuir copias de la información, sin alterar ni suprimir sus metadatos.
+    b. Difundir y publicar la información.
+    c. Adaptar y reordenar la información.
+    d. Extraer total o parcialmente la información.
+    e. Explotar comercialmente la información, utilizándola como insumo para generar
+    otros productos o servicios.
+Obligaciones:
+    a. Otorgar los créditos correspondientes al INEGI como autor, y cuando técnicamente
+    sea posible, mencionar la fuente de extracción de la información de la siguiente manera:
+    “Fuente: INEGI, nombre del producto de donde se extrae la información” y en su caso fecha
+    de actualización, ejemplo: “Fuente: INEGI, Censos Económicos 2009”.
+    b. Asegurarse de notificar al usuario final de cualquier análisis o transformación que haga a
+    la información y que la misma no sea presentada de tal manera que sugiera que dicho
+    análisis o transformación fue realizada por parte del INEGI.
+    c. No debe aparentar que el uso que haga de la información representa una postura oficial
+    del INEGI o que el mismo está avalado, integrado, patrocinado o apoyado por la fuente de
+    origen.
+Url: https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf
+
+
+DICCIONARIO DE DATOS:
+
+1.- Entidad federativa: Nombre del estado 
+2.- Nivel educativo: Nivel educativo
+3.- 2000/2001 a 2023/2024: Columnas anuales que contienen el porcentaje de abandono
+
+SIGNIFICADO DE LOS VALORES:
+
+* Valor Positivo: Porcentaje de alumnos que abandonaron la escuela en ese ciclo.
+* Valor Negativo: Indica que hubo más reingresos ("altas") que "bajas" durante el ciclo.
+* 0.0: Valor no significativo (no necesariamente un cero absoluto).
+
+MODIFICACIONES:
+1.- Se filtra la columna "Entidad federativa" para tener la deserción por estado.
+2.- Se quitan los espacios al inicio y al final de los nombres de la columna "Entidad federativa".
+3.- Se cambia de formato wide a formato long.
