@@ -1,0 +1,53 @@
+FUENTE:
+Gobierno de México. (s. f.). Indicador 9.5.1. Gasto federal en investigación científica y desarrollo experimental como proporción del PIB (Metadatos). 
+Sistema de Información de los Objetivos de Desarrollo Sostenible (SIODS). 
+https://agenda2030.mx/ODSind.html?ind=ODS009000400010&cveind=227&cveCob=99&lang=es#/Metadata
+* Autor: SIODS. Sistema de Información de los Objetivos de Desarrollo Sostenible, consultado el 8 de abril de 2026
+* Datos primarios: Gasto Federal en Investigación Científica y Desarrollo Experimental (GFIDE): Se obtiene de la Cuenta de Hacienda Pública Federal de la SHCP.
+* Responsable del cálculo: Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI). Unidad de Políticas Transversales 
+FECHA DE DESCARGA:
+8 de abril de 2026
+
+LICENCIA:
+Términos de uso de la información del SIODS
+Permite:
+    a. Hacer copias de la información, y distribuirlas sin alterar ni suprimir sus metadatos.
+    b. Difundir y publicar la información.
+    c. Adaptar y reordenar la información sin variar el sentido original y su veracidad.
+    d. Extraer de forma total o parcial la información.
+    e. Utilizar la información como insumo para generar otros productos o servicios y explotarlos
+    comercialmente.
+Obligaciones:
+    a. Deberá otorgar en todo momento los créditos correspondientes al SIODS como autor de la
+       información de acuerdo con el siguiente ejemplo: “Fuente: SIODS. Sistema de Información de
+       los Objetivos de Desarrollo Sostenible, consultado el 9 de abril de 2018”.
+    b. Deberá abstenerse de utilizar la información con objeto de engañar o confundir a la población
+    variando el sentido original de la misma y su veracidad.
+    c. Deberá abstenerse de informar o aparentar que el uso que haga de la información representa
+    una postura oficial del SIODS, o que se encuentra avalado, integrado, patrocinado o apoyado por
+    la fuente de origen.
+Url: https://agenda2030.mx/docs/doctos/system/terminos_uso_SIODS_es.pdf
+	
+DICCIONARIO DE DATOS:
+
+1.- Periodo: Año de la medición
+2.- Producto_Interno_Bruto_Anual: Valor del Producto Interno Bruto anual.
+3.- Inversion_en_Innovacion: Gasto Federal en investigación científica y desarrollo experimental anual
+4.  Porcentaje: Gasto Federal en investigación científica y desarrollo experimental anual como proporción del PIB.
+
+MODIFICACIONES:
+1.- Se abrieron los archivos '9.5.1_dc_501_es.csv', '9.5.1_dc_502_es.csv' y '9.5.1_sh_es.csv'. Del primer archivo,
+    se extrajeron las columnas "Periodo" y "Gasto_en_investigación_y_desarrollo_experimental"; esta última
+    columna se le cambio el nombre a "Inversion_en_Innovacion", en el segundo archivo se extrajo la columna
+    Producto_Interno_Bruto_trimestral_anualizado_a_precios_corrientes_base_2018 y se le cambio el nombre por
+    "Producto_Interno_Bruto_Anual", finalmente en el último archivo, se extrajo la columna 
+    "Gasto_federal_en_investigación_científica_y_desarrollo_experimental_como_proporción_del_PIB" y se le cambio
+    el nombre por "Porcentaje". Estos cambios de nombre se realizaron para facilitar el uso de variables y evitar
+    confusiones. Estas nuevas columnas se introducieron en una nueva hoja de Excel, en el siguiente orden:
+    {"Periodo", "Producto_Interno_Bruto_Anual", "Inversion_en_Innovacion", "Porcentaje"}.
+    Este archivo se guardo con el nombre "inversion_inv.csv".
+2.- En Excel se abrió el archivo "inversion_inv.csv", se seleccionaron todos los valores númericos de las columnas
+    "Producto_Interno_Bruto_Anual", "Inversion_en_Innovacion" y "Porcentaje", en la pestaña Inicio, en el grupo Número,
+    se cambio el formato de 'General' a 'Número', esto se realizo para quitar facilmente las comas para que
+    Juypter reconozca las columnas como valores enteros o flotantes en vez de 'strings'.
+ 

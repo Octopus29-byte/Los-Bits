@@ -1,5 +1,19 @@
+FUENTE (APA):
+Instituto Nacional de Estadística y Geografía (INEGI). (2020). Censo de Población y Vivienda 2020: 
+Principales resultados por localidad (ITER). 
+https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/iter/iter_00_cpv2020_csv.zip
+
+
+* Autor: Instituto Nacional de Estadística y Geografía (INEGI).
+* Datos primarios: Censo de Población y Vivienda 2020. Conjunto de datos: Principales resultados por localidad (ITER).
+Estos datos son capturados mediante entrevista directa en las viviendas de todo México.
+* Responsable del cálculo: Dirección General de Estadísticas Sociodemográficas del INEGI.
+Son los encargados de la validación, consistencia y tabulación de los microdatos originales.
+
+
 FECHA DE DESCARGA:
 12 de abril de 2026
+
 LICIENCIA:
 Términos de libre uso de la información del INEGI 
 Permite:

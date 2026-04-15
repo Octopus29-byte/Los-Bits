@@ -1,0 +1,65 @@
+FUENTE:
+Brás, G. (2022). Global Innovation Index: panel data (2011-2022) (Versión 4) [Conjunto de datos]. Mendeley Data.
+https://doi.org/10.17632/cvkdzr8tv3.4
+* Autores: Brás, Gonçalo (2022), “Global Innovation Index: panel data (2011-2022)”, Mendeley Data, V4, doi: 10.17632/cvkdzr8tv3.4
+FECHA DE DESCARGA:
+6 de abril de 2026
+
+LICENCIA:
+Términos de uso de la licencia 
+Permite:
+	a. Compartir: Copiar y redistribuir el material en cualquier medio o formato para cualquier propósito, incluso comercial.
+	b. Modificar: Mezclar, transformar, y compilar a partir del material para cualquier propósito, incluso comercial.
+	El licenciante no puede revocar estas libertades mientras se sigan las siguientes obligaciones de licencia.
+Obligaciones:
+	a. Atribución: Se debe dar el respectivo crédito, proveer a un link a la licencia, e indicar si se realizaron cambios.
+	Se puede hacer en cualquier manera razonable, pero de ninguna manera que sugiera que el licenciante lo respalde o su uso.
+	b. No incluir restricciones adicionales: No se podran agregar términos legales o medidas tecnológicas que legalmente restrinja
+	a otros de realizar cualquier cosa que la licencia permita.
+Notas:
+	a. No se debe de cumplir con la licencia para usar elementos del material en el dominio público o donde su uso es permitido por
+   	una excepción o una limitación.
+	b. No se dan garantías. La licencia se puede permitir no dar todos los permisos necesarios para el uso previsto. 
+	Por ejemplo, otros derechos como la publicidad, privacidad, o derechos morales pueden limitar como se usa el material.
+
+Url: https://creativecommons.org/licenses/by/4.0/
+
+MODIFICACIONES:
+1.- Se descargó y abrió el archivo 'Submited version (2)'. Se extrajeron de la hoja "Scores" las columnas 
+    "Economies", "Year" y "Global Innovation Index"; a esta última columna se le cambio el nombre a "Score". 
+    De la hoja "Rankings" se extrajo la columna "Global Innovation Index", al cual se le cambio el nombre a "Rank".
+    Estos cambios de nombre se realizaron debido a las dos columnas que tenían el mismo nombre.
+    Estas nuevas columnas se introducieron en una nueva hoja de Excel, en el siguiente orden:
+    {"Economies", "Year", "Score", "Rank"}. Este archivo se guardo con el nombre "rank_ino.csv".
+2.- En Excel se abrió el archivo "rank_ino.csv", se seleccionaron los países en la columna "Economies", en la
+    pestaña 'Datos', en el grupo 'Tipos de datos', seleccionamos "Información Geográfica". Esto traduce
+    automatícamente el nombre de los países. Aún con los datos seleccionados, se da click en el cuadro negro
+    "Insertar Datos" que se encuentra en la esquina superior derecha de nuestra selección, le damos click en
+    'Abreviatura', esto creará una columna nueva con la abreviatura de cada país, a excepciób de 'Alemania',
+    'Irlanda', 'Filipinas', 'Polonia', 'Suazilandia', 'Suecia' y 'Macedonia del Norte', los cuales se agregaron
+    manualmente como 'DE', 'IE', 'PH', 'PL', 'SZ', 'SE' y 'MK'. La abreviatura sirve para que las gráficas se
+    vean más limpias. 
+3.  En el cuaderno de Jupyter, se ordenó el dataset en orden descendente en base al año y al puntuaje.
+    Ejemplo: 
+
+    Ordenación original:
+        Economies  Year	 Score	 Rank	Abreviatura
+    0	 Albania   2011	 30.45	  80	    AL
+    1	 Albania   2012	 30.40	  90	    AL
+    2	 Albania   2013	 30.90	  93	    AL         
+    3	 Albania   2014	 30.50	  94	    AL
+    4	 Albania   2015	 30.70	  87	    AL
+
+   Ordenación modificada:
+         Economies     Year	Score	Rank	Abreviatura
+   24	 Angola	       2011	 0.0	 0	    AO
+  120	 Barbados      2011	 0.0	 0	    BB
+  132	 Bielorrusia   2011	 0.0	 0	    BY
+  156	 Belice	       2011	 0.0	 0	    BZ
+  180	 Bután	       2011	 0.0	 0	    BT
+
+   
+
+    
+
+ 
