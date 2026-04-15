@@ -43,6 +43,12 @@ Nuestro objetivo es visivilizar la realidad de México en innovación y educaci�
 
 ## Historia
 
+* ~~Abanodno escolar: grafica de bolitas que se mueven~~
+* Investigadores y patentes= de puntos o bolitas tambien
+* Grafica de inovacion = grafica de barras cambiante
+* Grafica de inversion = grafica de barras cambiante
+* ~~Grafica de escolarida = un mapa del pais~~
+
 
 
 ## Metadatos 
