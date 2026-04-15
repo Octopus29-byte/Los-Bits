@@ -37,12 +37,3 @@ cambio de formato.
 - **Decisión**: Decidimos tomar su respuesta ya que fue acertada con nuestra
 solicitud.
 
-
-
-### NO usamos IA para hacer lo siguiente:
-- La selección de las 4 variables clave (revisión de
-  literatura y discusión en equipo)
-- La narrativa del tablero (redacción propia, 3
-  iteraciones internas)
-- La interpretación de outliers en Acapulco post-Otis
-  (conocimiento local del equipo)
