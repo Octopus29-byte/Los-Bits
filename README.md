@@ -43,11 +43,36 @@ Nuestro objetivo es visivilizar la realidad de México en innovación y educaci�
 
 ## Historia
 
-* ~~Abanodno escolar: grafica de bolitas que se mueven~~
-* Investigadores y patentes= de puntos o bolitas tambien
-* Grafica de inovacion = grafica de barras cambiante
-* Grafica de inversion = grafica de barras cambiante
-* ~~Grafica de escolarida = un mapa del pais~~
+### Introducción
+El grado tecnológico en el que se encuentra la sociedad actualmente avanza al ritmo de las innovaciones ideadas y/o explotadas por seres humanos (hasta ahora). Para expandir este desarrollo tecnológico, se necesitan conocimientos especializados que, a su vez, tienen como requisito los conocimientos básicos. En promedio ¿cuántos años pasan los mexicanos obteniendo estos conocimientos básicos en la escuela?
+
+### Escolaridad
+
+`Gráfica de Promedio de escolaridad`
+
+¿Cuántas personas pausaron o dejaron de obtener estos conocimientos?
+
+`Gráfica de deserción escolar`
+
+¿Cuál es la calidad de las capacidades que se obtienen en la escuela?~~faltante~~
+
+### Panorama actual 
+
+Como ya dijimos, la educacion basica es solo un requisito para la educación especializada, pero la educación por si sola no genera innovación. La innovación va más allá de solo conocimientos: es una idea creativa que implica su aplicación. Las patentes son un registro oficial sobre la aplicación de estas ideas nuevas y gran parte de estas ideas son generadas por los investigadores afiliados al SNII:
+
+`Gráfica de investigadores vs patentes`
+
+No es justo solo responsabilizar a los investigadores por la baja cantidad de patentes, hay otros factores que impiden lograr su creación. Por ejemplo, el presupuesto que se les da a los investiadores. ¿Cuánto de la economía se destina a innovar?
+
+`Gráfica de Gasto federal en investigación científica y desarrollo experimental como proporción del PIB`
+
+`México es un país que depende en gran medida de la manofuctura`~~faltante~~
+
+`Población que  trabaja en la manofactura vs investigadores`~~faltante~~
+
+Entonces, con todo lo visto hasta ahora ¿Por qué es importante innovar? Para obtener independencia tecnológica. De esta manera no se dependería de una empresa o institución extranjera si decidiera dejar de producir o distribuir sus productos en México. ¿Dónde se encuentra México en innovación en comparación a otros paises?
+
+`Índice global de innovación`
 
 
 
